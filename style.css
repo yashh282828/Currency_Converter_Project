@@ -1,0 +1,55 @@
+
+body {
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+.output {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+}
+
+.container form {
+  gap: 6px;
+}
+
+.btn {
+  border: none;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.16);
+}
+
+.output table {
+  border-collapse: collapse;
+  margin: 10px auto 0;
+}
+
+.output th,
+.output td {
+  padding: 10px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.output thead th {
+  background: rgb(210, 202, 191);
+}
+
+.output tbody tr:hover {
+  background: rgba(116, 230, 192, 0.18);
+}
+
